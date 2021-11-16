@@ -247,14 +247,20 @@ DELETE /posts/:id
 {
     "status": "OK"
 }
-
+```
 
 ## Upload Files
 **request URL**
 ```
-DELETE /upload
+POST /upload
 ```
 
+**request body**
+```json
+{
+
+}
+```
 
 
  
