@@ -94,16 +94,51 @@ POST /auth/logout
 DELETE /users/:id
 ```
 
+**Respose**
+```json 
+{
+    "status": "OK"
+}
+```
+
 ## USers/Update
 **request URL**
 ```
 PUT /users/:id
 ```
 
+**Respose**
+```json 
+{
+    "id": "id",
+    "email": "email",
+    "username": "username",
+}
+```
+
+**Request body**
+```json 
+{
+    "id": "id",
+    "email": "email",
+    "username": "username",
+    "password": "newpassword"
+}
+```
+
 ## Users/Get
 **request URL**
 ```
 GET /users/:id
+```
+
+**Respose**
+```json 
+{
+    "id": "id",
+    "email": "email",
+    "username": "username"
+}
 ```
 
 ## Posts/Create
