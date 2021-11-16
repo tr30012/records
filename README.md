@@ -35,7 +35,7 @@ POST /auth/login
 POST /auth/register
 ```
 
-**Registerrequest body**
+**Request body**
 ```json 
 {
     "username": "username",
@@ -147,10 +147,50 @@ GET /users/:id
 POST /posts
 ```
 
+**Request body**
+```json 
+{
+    "photo": "photourl",
+    "title": "title",
+    "desc": "desc",
+    "username": "username"
+}
+```
+
+**Response**
+```json 
+{
+    "photo": "photourl",
+    "title": "title",
+    "desc": "desc",
+    "username": "username",
+    "id":"id"
+}
+```
+
 ## Posts/Get All
 **request URL**
 ```
 GET /posts
+```
+
+**Response**
+```json 
+[{
+    "photo": "photourl",
+    "title": "title",
+    "desc": "desc",
+    "username": "username",
+    "id":"id"
+},
+{
+    "photo": "photourl",
+    "title": "title",
+    "desc": "desc",
+    "username": "username",
+    "id":"id"
+}
+]
 ```
 
 ## Posts/Get One
@@ -159,10 +199,42 @@ GET /posts
 GET /posts/:id
 ```
 
+**Response**
+```json 
+{
+    "photo": "photourl",
+    "title": "title",
+    "desc": "desc",
+    "username": "username",
+    "id":"id"
+}
+```
+
 ## Posts/Update
 **request URL**
 ```
 PUT /posts/:id
+```
+
+**Request body**
+```json 
+{
+    "photo": "photourl",
+    "title": "title",
+    "desc": "desc",
+    "username": "username"
+}
+```
+
+**Response**
+```json 
+{
+    "photo": "photourl",
+    "title": "title",
+    "desc": "desc",
+    "username": "username",
+    "id":"id"
+}
 ```
 
 ## Posts/Delete
@@ -170,6 +242,12 @@ PUT /posts/:id
 ```
 DELETE /posts/:id
 ```
+**Response**
+```json 
+{
+    "status": "OK"
+}
+
 
 ## Upload Files
 **request URL**
