@@ -89,19 +89,59 @@ POST /auth/logout
 ```
 
 ## Users/Delete
+**request URL**
+```
+DELETE /users/:id
+```
 
 ## USers/Update
+**request URL**
+```
+PUT /users/:id
+```
 
 ## Users/Get
+**request URL**
+```
+GET /users/:id
+```
 
 ## Posts/Create
+**request URL**
+```
+POST /posts
+```
 
 ## Posts/Get All
+**request URL**
+```
+GET /posts
+```
 
 ## Posts/Get One
+**request URL**
+```
+GET /posts/:id
+```
 
 ## Posts/Update
+**request URL**
+```
+PUT /posts/:id
+```
 
 ## Posts/Delete
+**request URL**
+```
+DELETE /posts/:id
+```
+
+## Upload Files
+**request URL**
+```
+DELETE /upload
+```
+
+
 
  
