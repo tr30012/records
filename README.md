@@ -88,4 +88,20 @@ POST /auth/logout
 }
 ```
 
+## Users/Delete
+
+## USers/Update
+
+## Users/Get
+
+## Posts/Create
+
+## Posts/Get All
+
+## Posts/Get One
+
+## Posts/Update
+
+## Posts/Delete
+
  
