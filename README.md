@@ -12,10 +12,12 @@ POST /auth/login
 **Login request body**
 ```json 
 {
-    "username": <username>,
-    "password": <password>,
-    "email:" <email>
+    "username": "username",
+    "password": "password",
+    "email:" "email"
 }
 ```
+
+
 
  
