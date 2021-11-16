@@ -258,7 +258,15 @@ POST /upload
 **request body**
 ```json
 {
+    "filename": "filename",
+    "file": "file",
+}
+```
 
+**response body**
+```json
+{
+    "status": "OK"
 }
 ```
 
