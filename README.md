@@ -4,7 +4,7 @@
 * `https://records-web-api.herokuapp.com/api/`
 
 ## Web Client
-* `https://records-web-client.herokuapp.com/api/` for mainnet
+* `https://records-web-client.herokuapp.com` for mainnet
 
 ## Auth/Login 
 **Login request URL**
