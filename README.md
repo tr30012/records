@@ -14,7 +14,7 @@ POST /auth/login
 {
     "username": "username",
     "password": "password",
-    "email:" "email"
+    "email:": "email"
 }
 ```
 
